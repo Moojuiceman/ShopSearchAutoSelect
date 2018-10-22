@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>INIfier</name>
+    </assembly>
+    <members>
+        <member name="T:INIfierNS.INIfier">
+            <summary>
+            Used to replace the contents of TextAssets with data from .ini files.
+            </summary>
+        </member>
+        <member name="M:INIfierNS.INIfier.RegisterFile(System.String,System.String,System.Boolean)">
+            <summary>
+            Registers a file to replace a TextAsset of the same name.
+            </summary>
+            <param name="name">The file to register.
+            If the name does not end in .ini it will be appended automatically</param>
+            <param name="content">The content to place in the file.</param>
+            <param name="overwrite">Whether to overwrite an existing file.</param>
+            
+        </member>
+        <member name="M:INIfierNS.INIfier.RegisterFile(System.String,System.Byte[],System.Boolean)">
+            <summary>
+            Registers a file to replace a TextAsset of the same name.
+            </summary>
+            <param name="name">The file to register.
+            If the name does not end in .ini it will be appended automatically</param>
+            <param name="content">The content to place in the file.</param>
+            <param name="overwrite">Whether to overwrite an existing file.</param>
+        </member>
+        <member name="M:INIfierNS.INIfier.IsFileRegistered(System.String)">
+            <summary>
+            Checks whether an asset replacement file exists
+            </summary>
+            <param name="name">The file to check for.
+            If the name does not end in .ini it will be appended automatically</param>
+        </member>
+        <member name="M:INIfierNS.INIfier.GetReplacementFileText(System.String)">
+            <summary>
+            Gets the content of a replacement file
+            </summary>
+            <param name="name">The file to check for.
+            If the name does not end in .ini it will be appended automatically</param>
+        </member>
+        <member name="M:INIfierNS.INIfier.GetReplacementFileBytes(System.String)">
+            <summary>
+            Gets the content of a replacement file
+            </summary>
+            <param name="name">The file to check for.
+            If the name does not end in .ini it will be appended automatically</param>
+        </member>
+    </members>
+</doc>

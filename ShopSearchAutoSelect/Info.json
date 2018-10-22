@@ -1,0 +1,9 @@
+{
+  "Id": "ShopSearchAutoSelect",
+  "DisplayName": "Shop Search Auto Select",
+  "Author": "Moojuiceman",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.12.0",
+  "AssemblyName": "ShopSearchAutoSelect.dll",
+  "EntryMethod": "ShopSearchAutoSelectNS.ShopSearchAutoSelect.Load"
+}
